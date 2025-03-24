@@ -1,0 +1,87 @@
+/* Main styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.page {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+/* Dashboard styles */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #6c757d;
+    font-weight: 500;
+}
+
+/* Table styles */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Rights status indicators */
+.text-success {
+    font-weight: 600;
+}
+
+.text-warning {
+    font-weight: 600;
+}
+
+.text-danger {
+    font-weight: 600;
+}
+
+/* Alert styling */
+.list-group-item {
+    border-left-width: 4px;
+}
+
+.border-danger {
+    border-left-color: #dc3545 !important;
+}
+
+.border-warning {
+    border-left-color: #ffc107 !important;
+}
+
+.border-success {
+    border-left-color: #28a745 !important;
+}
+
+/* Modal styling */
+.modal-header {
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .page {
+        padding: 15px;
+    }
+}
